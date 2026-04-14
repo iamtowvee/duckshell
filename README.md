@@ -1,2 +1,4 @@
 # duckshell
-Simple browser console
+
+> [!NOTE]
+> Simple browser console
