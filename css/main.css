@@ -1,0 +1,87 @@
+@import url('colours.css');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Google Sans Code", monospace;
+}
+
+body {
+    background: var(--bg-main);
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: var(--col-blue);
+    text-wrap: balance;
+    /*
+    text-shadow: 1px 1px 1px var(--col-milk), 1px -1px 1px var(--col-milk), -1px 1px 1px var(--col-milk), -1px -1px 1px var(--col-milk);
+    */
+}
+
+hr.d {
+    border: none;
+    border-top: 2px solid var(--col-milk);
+    /* box-shadow: 1px 1px 4px var(--col-milk); */
+}
+
+hr.b {
+    border: none;
+    border-top: 4px solid var(--col-blue);
+    /* box-shadow: 1px 1px 7px var(--col-milk); */
+}
+
+.code.block.history {
+    border: 2px solid var(--col-blue);
+    border-radius: 12px;
+    color: var(--col-milk);
+    padding: 10px;
+    background: var(--col-dgray);
+    height: 40%;
+    overflow-y: auto;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.code.block.enter {
+    border: 2px solid var(--col-blue);
+    border-top: 0px;
+    border-radius: 12px;
+    color: var(--col-milk);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background: var(--col-dgray);
+}
+
+.code.block.enter::before {
+    content: "$";
+    color: var(--col-bdim);
+    font-weight: bold;
+}
+
+.code.block.inputer {
+    background: #fff0;
+    border: none;
+    animation: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--col-milk);
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+}
+
+.command-line::before {
+    content: "$ ";
+    color: var(--col-bdim);
+    font-weight: italic;
+}
+
+.code.block.history p {
+    margin: 0;
+    line-height: 1.4;
+}

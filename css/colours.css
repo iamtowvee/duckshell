@@ -1,0 +1,17 @@
+/* > DARK THEME < */
+:root {
+    --col-blue: #6565ae;
+    
+    --col-bdim: #9595de;
+    
+    --col-milk: #fefefe;
+    
+    --col-dgray: #1f1f1f;
+    
+    --bg-main: #262c2e;
+}
+
+/* > LIGHT THEME < */
+:root[data-theme="light"] {
+    --col-blue: #1212ae;
+}
