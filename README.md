@@ -1,0 +1,2 @@
+# duckshell
+Simple browser console
