@@ -38,6 +38,7 @@ hr.b {
     background: var(--col-dgray);
     height: 40%;
     overflow-y: auto;
+    max-height: 80%;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
